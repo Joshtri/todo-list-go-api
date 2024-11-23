@@ -1,0 +1,10 @@
+GET http://localhost:5000/api/todos
+
+
+###
+POST http://localhost:5000/api/todos
+Content-Type: application/json
+
+{
+    "body" : "belajar ular"
+}
