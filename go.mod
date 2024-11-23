@@ -1,4 +1,4 @@
-module github.com/Joshtri/react-go-tutorial
+module project
 
 go 1.23.3
 

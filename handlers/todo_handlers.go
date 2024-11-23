@@ -3,10 +3,10 @@ package handlers
 import (
 	"context"
 	"log"
+	"project/database" // Import sesuai nama module di go.mod
+	"project/models"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/your_project_name/models"
-	"github.com/your_project_name/database"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
